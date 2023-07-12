@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XMEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/CSS/reset.css" />
+    <link rel="stylesheet" href="./src/CSS/estilos.css" />
+    <link rel="stylesheet" href="./src/CSS/responsivo.css"/>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.svg" alt="LOGO xmen">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+    
+          <li class="personagem selecionado" id="ciclope" data-name= "Ciclope"  data-description="Ele tem o poder de disparar rajadas ópticas por um acidente queaconteceu com ele quando criança, mas não consegue controlá-los ">
+             <img src="src/imagens/card-ciclope.jpg" alt="CICLOPE" />
+          </li>
+
+          <li class="personagem" id="jean-grey" data-name= "Jean Grey" data-description=" Jean Grey é a telepata mais poderosa do mundo, telepata; telecinética e empata ômega, sendo possivelmente ao lado de Magneto a mutante mais poderosa do universo">
+            <img src="src/imagens/card-jean-grey.jpg" alt="JEAN GRAY" />
+          </li>
+
+          <li class="personagem" id="lince-negra" data-name= "Lince Negra" data-description=" A Lince Negra passa pelos objetos na mesma velocidade em que ela está se movendo antes de entrar neles. Porém ela é incapaz de respirar enquanto está dentro de um objeto">
+            <img src="src/imagens/card-lince-negra.jpg" alt="LINCE NEGRA" />
+          </li>
+
+          <li class="personagem" id="magneto" data-name= "Magneto" data-description=" Magneto é um mestre manipulador do magnetismo, controlando e usando sua energia para derrotar seus inimigos">
+            <img src="src/imagens/card-magneto.jpg" alt="MAGNETO" />
+          </li>
+
+        <li class="personagem" id="noturno" data-name= "Noturno" data-description="Noturno possui agilidade sobre-humana, e a capacidade de teletransporte, invisibilidade em sombras profundas, e as mãos e os pés aderirem a parede">
+            <img src="src/imagens/card-noturno.jpg" alt="NOTURNO" />
+          </li>
+
+          <li class="personagem" id="tempestade" data-name= "Tempestade" data-description=" Ela é capaz de controlar o clima e a atmosfera e é considerada uma dos mutantes mais poderosas do planeta">
+            <img src="src/imagens/card-tempestade.jpg" alt="TEMPESTADE" />
+          </li>
+
+          <li class="personagem" id="vampira" data-name= "Vampira" data-description=" Seu poder mutante é a habilidade de absorver a vitalidade, memórias, habilidades e poderes de outros seres vivos através do contato com a pele">
+            <img src="src/imagens/card-vampira.jpg" alt="vampira" />
+          </li>
+
+          <li class="personagem" id="wolverine" data-name= "Wolverine" data-description=" Nascido mutante, seus poderes incluem sentidos aguçados, garras retrateis e grande capacidade regenerativa">
+            <img src="src/imagens/card-wolverine.jpg" alt="WOLVERINE" />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="CICLOPE" />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
